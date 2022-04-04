@@ -25,7 +25,7 @@ def predict(letter, word, star):
 
 print(hash_word) # Let's initiate the game
 
-lives = 6 # Maximum of 6 attempts allowed.
+lives = 7 # Maximum of 7 attempts allowed.
 while(lives > 0):
     guessed_letter = input("Please enter your next guess: ")
 
